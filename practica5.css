@@ -1,0 +1,19 @@
+.title{
+   text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    gap: 55px;
+
+} 
+
+button{
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    padding-left: 15px;
+}
