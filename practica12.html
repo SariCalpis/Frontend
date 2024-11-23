@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 12</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="practica12.css">
+</head>
+<body>
+    <div class="container"></div>
+
+    <h1>Formulario De Registro</h1>
+
+    <h3>Recuerda rellenar toda la información necesaria</h3>
+
+    
+    <form id="miFormulario" onsubmit="return validarformulario()">
+        <label>Nombre de usuario:</label>
+        <input class="nombre" id="usuario" type="text">
+        <br>
+        <br>
+        <label>Correo Electrónico:</label>
+        <input class="email" id="correo" type="email">
+        <br>
+        <br>
+
+        <label>Contraseña:</label>
+        <input class="contraseña" id="password" type="password">
+        <input class="contraseña2" id="passwordAgain" type="password"placeholder="Repite tu contraseña">
+        <br>
+        <br>
+        <button type="submit" class="boton">Guardar Datos</button>
+
+    </form>
+
+    <script src="practica12.js"></script>
+</body>
+</html>

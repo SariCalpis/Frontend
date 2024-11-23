@@ -1,0 +1,90 @@
+
+body {
+    font-family: "DynaPuff";
+    background: linear-gradient(100deg, #f9f390, #db9ad9);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    
+}
+
+h1,h3{
+    color: #010753;
+    text-align: center;
+}
+.dynapuff{
+  font-family: "DynaPuff", system-ui;
+
+  color: #010753;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+   
+}
+
+#miFormulario{
+    text-align: center;
+    
+}
+
+.nombre{
+justify-content: space-between;
+background: #c7d9f6;
+border-color: #010753;
+border-radius: 30px;
+padding-left: 20px;
+margin-bottom: 25px;
+
+}
+
+.email{
+justify-content: space-between;
+background: #c7d9f6;
+border-color: #010753;
+border-radius: 30px;
+padding-left: 20px;
+margin-bottom: 25px;
+
+}
+
+.contraseña{
+justify-content: space-between;
+background: #c7d9f6;
+border-color: #010753;
+border-radius: 30px;
+padding-left: 20px;
+margin-bottom: 25px;
+
+}
+
+.contraseña2{
+justify-content: space-between;
+background: #c7d9f6;
+border-color: #010753;
+border-radius: 30px;
+padding-left: 20px;
+margin-bottom: 25px;
+
+}
+
+
+.boton{
+font-size: large;
+align-items: center;
+font-weight: bold;
+background: #c7d9f6;
+border-color: #010753;
+border-radius: 30px;
+padding-left: 20px;
+margin-bottom: 25px;
+width: 198px;
+height: 30px;
+cursor: pointer;
+
+}
+
+button:hover{
+    color: #7b83e6;
+    font-size: larger;
+}
+
